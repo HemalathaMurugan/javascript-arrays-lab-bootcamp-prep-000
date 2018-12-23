@@ -19,12 +19,10 @@ function destructivelyRemoveFirstKitten() {
 
 function appendKitten(name) {
   var res = [...kittens,name];
-  return res;
 }
 
 function prependKitten(name) {
   var res = [name,...kittens];
-  return res;
 }
 
 function removeLastKitten() {
